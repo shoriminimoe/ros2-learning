@@ -10,4 +10,4 @@ build_cpp:
 	colcon build --packages-select my_cpp_pkg
 
 run_cpp:
-	ros2 run my_cpp_pkg cpp_node
+	ros2 run my_cpp_pkg my_first_node
